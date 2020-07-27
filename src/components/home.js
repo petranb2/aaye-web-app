@@ -1,6 +1,6 @@
 import React from "react";
 import TopNav from "./navbar";
-import Login from "./login";
+import Login from "./login2";
 import { Switch, Route, useRouteMatch, Redirect } from "react-router-dom";
 
 const HomePage = ({ match }) => {
