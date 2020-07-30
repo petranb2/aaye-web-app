@@ -1,10 +1,13 @@
+
 html {
   height: 100%;
 }
 
 body {
   width: 100%;
-  background: linear-gradient(to left top, blue, red);
+  height: 100%;
+  background: linear-gradient(to left top, blue, white);
+  margin: 0px;
   /* The image used */
-  background-image: url(./assets/daniel-leone-v7daTKlZzaw-unsplash.jpg);
+  /*background-image: url(./assets/daniel-leone-v7daTKlZzaw-unsplash.jpg);*/
 }

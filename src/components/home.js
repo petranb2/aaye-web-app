@@ -7,7 +7,6 @@ const HomePage = ({ match }) => {
   let { path } = useRouteMatch();
 
   return (
-    <div>
       <Switch>
         <Route path="/login">
           <Login />
@@ -19,7 +18,6 @@ const HomePage = ({ match }) => {
           <Redirect to="/login" />
         </Route>
       </Switch>
-    </div>
   );
 };
 

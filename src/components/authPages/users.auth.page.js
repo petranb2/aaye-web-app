@@ -32,19 +32,7 @@ class UsersPage extends React.Component {
   render() {
     return (
       <div>
-        <Container
-          className="bg-light"
-          style={{
-            margin: 0,
-            padding: "10px",
-            position: "absolute",
-            top: "50%",
-            left: "50%",
-            transform: "translate(-50%, -50%)",
-          }}
-        >
           <UsersTable products={this.state.products} />
-        </Container>
       </div>
     );
   }

@@ -8,6 +8,7 @@
     "@testing-library/user-event": "^7.2.1",
     "availity-reactstrap-validation": "^2.6.1",
     "bootstrap": "^4.5.0",
+    "node-sass": "^4.14.1",
     "react": "^16.13.1",
     "react-bootstrap-table-next": "^4.0.3",
     "react-bootstrap-table2-paginator": "^2.1.2",

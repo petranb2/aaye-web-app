@@ -22,12 +22,12 @@ const UsersPage = (props) => {
   return (
     <Container>
       <h1 className="display-3 text-justify">Users table</h1>
-    <BootstrapTable
-    keyField="email"
-    data={props.products}
-    columns={columns}
-    pagination={paginationFactory()}
-  />
+      <BootstrapTable
+        keyField="email"
+        data={props.products}
+        columns={columns}
+        pagination={paginationFactory()}
+      />
     </Container>
 
   );
